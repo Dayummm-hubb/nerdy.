@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Batman 🦇 </title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background:
+      radial-gradient(circle at top, #1a1f35, #0b0f1a 70%);
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .section {
+    padding: 90px 20px;
+    max-width: 760px;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+  }
+
+  h2 {
+    color: #ff9acb; /* Hello Kitty pink */
+    letter-spacing: 1px;
+  }
+
+  p {
+    font-size: 1.1rem;
+    line-height: 1.9;
+    opacity: 0.92;
+  }
+
+  .icons {
+    font-size: 2.2rem;
+    margin: 15px 0;
+  }
+
+  button {
+    background: linear-gradient(135deg, #ff9acb, #ff6fb1);
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #1a1a1a;
+    font-weight: 600;
+  }
+
+  button:hover {
+    opacity: 0.9;
+  }
+
+  input {
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+    font-size: 1rem;
+    width: 220px;
+    text-align: center;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .divider {
+    height: 1px;
+    width: 65%;
+    margin: 65px auto;
+    background: linear-gradient(
+      to right,
+      transparent,
+      #ff9acb,
+      #3b82f6, /* Batman blue */
+      #ff9acb,
+      transparent
+    );
+  }
+
+  img {
+    width: 230px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow:
+      0 0 30px rgba(255,154,203,0.45),
+      0 0 60px rgba(59,130,246,0.25);
+  }
+
+  .footer {
+    font-size: 0.9rem;
+    opacity: 0.75;
+    padding-bottom: 45px;
+  }
+
+  .label {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-top: 10px;
+  }
+</style>
+</head>
+
+<body>
+
+<!-- 🎵 AUDIO -->
+<audio id="bgMusic" preload="auto">
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<!-- 🔐 PASSCODE -->
+<div class="section" id="passSection">
+  <h1>Enter Passcode 🔐</h1>
+  <div class="icons">🦇 🎀</div>
+  <p class="label">Only for Batman<br>
+  <br>clue : the tag we matched on <strong> chitchat </strong>
+  gng use caps
+  </p>
+
+  <input type="password" id="passInput" placeholder="Passcode">
+  <br>
+  <button onclick="checkPass()">Unlock</button>
+
+  <p id="passError" style="color:#ff9acb;"></p>
+</div>
+
+<!-- 🎧 MUSIC -->
+<div class="section hidden" id="musicSection">
+  <h5> HEYYYYY YOU MADE IT HEREEEEE NERAYA IRUKU ULLA INNUM </h5>
+  <h1>Music First 🎧</h1>
+  <div class="icons">🎀 ▶ 🦇</div>
+
+  <p>Press play. Take your time.</p>
+
+  <button onclick="playMusic()">Play</button>
+
+  <div id="cover" class="hidden">
+    <img src="cover.jpg" alt="Batman x Hello Kitty">
+  </div>
+</div>
+
+<!-- 💗 CONTENT -->
+<div id="content" class="hidden">
+
+  <div class="divider"></div>
+
+  <div class="section">
+  <h5> SURPRISSEEEEEEEE </h5>
+    <h1>Hey Batman 🦇</h1>
+    <div class="icons">🎀</div>
+    <p>
+      Hey lampostuhhh.....
+      I've tried to create this website for You
+      knjm cupcake neraya help panuchu thaan with prompts
+      but the wordings and idea is mine ☝🏻🙂‍↔️
+    </p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <h2>Why You’re Special</h2>
+    <p>
+       adhavadhu why you are special?.....<br>
+    you are special becoz i feel safe with you 
+    and you never judged me...as far as i know...
+    aprm you are special becoz you always remembered..
+    not just me but Whatever i said..but you'll always 
+    say enaku easy ah maranthurum...but ik you wont ☝🏻🙂‍↔️ and i cant prove it ☝🏻😭
+    and marunthuratha nee oru ara lusu ☝🏻🙂‍↔️ gng and i like messing with ya
+    </p>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <h2>Our Little World</h2>
+    <p>
+      aprm ykw naa chitchat ku thaa thnks solanum...
+     umm not just chitchat...but also the time, server, and you for not skipping my ass ☝🏻🙂‍↔️
+     as i remember unaku kaal fracture ana apa thaan namma nalla pesa aramichom
+     and i still remember something reee ☝🏻🙂‍↔️ we matched  on  <strong> DATE </strong>
+     tag gng ☝🏻🙂‍↔️.  and this made me belive that chances might be less but never zero. who thought 
+     that both pondicherry people would meet at chitchat☝🏻😭.
+     aprm you might thought you was option in roblox but nahhh
+     i love playing ROBLOX with<strong>you</strong>.
+     i mean idhuku munadi naa frnds kuda veladi iruken but i only enjoyed playing with you
+     ana neeeeeeee avasara pattu roblox delete panita ☝🏻😞 but fine ☝🏻🫠 neeye namma eppa thirumba 
+     roblox veladlam nu solu 👉🏻👈🏻
+    </p>
+    <div class="icons">🦇 🎮 🎀</div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <h2>A Soft Promise</h2>
+    <p>
+      know you think you are replaceable to me 
+    but the truth is you'll never be replaced 
+    even if you go I'll make no one as Batman
+    like bruhh whenever i see a batman I'll 
+    remember parthasarathy ☝🏻😭 ik it sounds 
+    kinda funny but yeh thats the truth. and 
+    no makes me laugh at midnight by silly questions 
+    the questions which i like ngl 😭... just imagine
+    you are drinking water at night and you suddenly 
+    ask do you like me or shawarma??!!.. like bruhh you 
+    obviously know the answer 😭🙏🏻 it's always youuuu.
+    <br>
+    and don't forget to be hydrated ☝🏻🙂‍↔️
+    </p>
+  </div>
+  <div class="divider"></div>
+  
+  <div class="section">
+    <h2>A shitass poem🌙</h2>
+    If im a cockroach i would fly towards you ☝🏻🥰<br>
+    If im a dog i would chase you to 6 streets ☝🏻🥰<br>
+    If im a bear i would attack you 🥰💅🏻<br>
+    If im a crow I'll shit in your head ☝🏻🙂‍↔️<br>
+    <strong> AS CONCLUSION WHAT I WANNA SAY IS
+    I'LL CHOOSE YOU IN EVERY UNIVERSE 😭🧿</strong>
+    </div>
+    <div class="divider"></div>
+      <div class="section">
+    <h2>things you should do before going bald 👴🏻</h2>
+                    •Taking me to shawarma date🥙<br>
+                 • buying me kinder joy (Dc edition)🍫<br>
+              • Buying me ice cream ☝🏻🙂‍↔️<br>
+           •Buying me browine 🍪<br>
+        •First thing is first paaka varanum 😭<br>
+
+  <div class="divider"></div>
+
+  <div class="section">
+    <h2>Secret Note 🌙</h2>
+    <p>
+     aprmmmmm ennnaaaaaaaa.....<br>
+     you know i suck at coding 🥰💅🏻 but i created a site just for ya
+     but you are not nerdy enough to understand ☝🏻🙂‍↔️
+     but nvm 🥰💅🏻
+     <br>
+     i like you gng ☝🏻🥰 just dont go bald or anything ☝🏻🥰
+    </p>
+    and i love annoying your ass ngl ☝🏻🙂‍↔️  
+    <div class="icons">🤍</div>
+  </div>
+
+
+
+<div class="footer hidden" id="footer">
+  Batman 🦇 × Kullachi ☝🏻🙂‍↔️<br>
+  more like introvert × extrovert ☝🏻🙂‍↔️
+</div>
+
+<script>
+  function checkPass() {
+    const pass = document.getElementById("passInput").value;
+    if (pass === "DATE") {
+      document.getElementById("passSection").classList.add("hidden");
+      document.getElementById("musicSection").classList.remove("hidden");
+    } else {
+      document.getElementById("passError").innerText = "DAWGGG 😭 THINK CORRECTLY.... WE DIDNT MATCH ON THAT TAG 😭 OR TRY ON CAPS IF YOU THINK THAT'S THE TAG🦇";
+    }
+  }
+
+  function playMusic() {
+  const music = document.getElementById("bgMusic");
+
+  document.getElementById("cover").classList.remove("hidden");
+
+  music.volume = 1.0;
+  music.muted = false;
+
+  music.play().then(() => {
+    console.log("Music playing");
+  }).catch(err => {
+    alert("Tap Play again 🔊");
+    console.log(err);
+  });
+
+  setTimeout(() => {
+    document.getElementById("content").classList.remove("hidden");
+    document.getElementById("footer").classList.remove("hidden");
+  }, 2200);
+  }
+</script>
+
+</body>
+</html>
