@@ -1,0 +1,2 @@
+# nerdy.
+For one....person ☝🏻🙂‍↔️
